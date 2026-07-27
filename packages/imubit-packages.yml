@@ -1,0 +1,68 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/imubit + https://pypi.org
+# First-party open-source Python libraries published by Imubit (author meir@imubit.com).
+# These are industrial-data-access / infrastructure libraries, NOT client SDKs for a
+# hosted Imubit product API (Imubit publishes no public developer API). Captured as
+# Packages (official first-party), not SDKs.
+packages:
+- language: python
+  registry: pypi
+  name: data-agent
+  url: https://pypi.org/project/data-agent/
+  repo: https://github.com/imubit/data-agent
+  install: pip install data-agent
+  version: 0.4.0
+  license: LGPL-3.0
+  description: Python library for pipelining real-time and historical data to and from industrial historians and control systems.
+  official: true
+- language: python
+  registry: pypi
+  name: qt-data-extractor
+  url: https://pypi.org/project/qt-data-extractor/
+  repo: https://github.com/imubit/qt-data-extractor
+  install: pip install qt-data-extractor
+  version: 0.4.5
+  license: LGPL-3.0
+  description: Extract data from industrial historians (Qt-based tooling).
+  official: true
+- language: python
+  registry: pypi
+  name: data-agent-osisoft-pi
+  url: https://pypi.org/project/data-agent-osisoft-pi/
+  repo: https://github.com/imubit/data-agent-osisoft-pi
+  install: pip install data-agent-osisoft-pi
+  version: 0.4.1
+  license: LGPL-3.0
+  description: OSIsoft PI historian plugin for the data-agent package.
+  official: true
+- language: python
+  registry: pypi
+  name: data-agent-aspen-ip21
+  url: https://pypi.org/project/data-agent-aspen-ip21/
+  repo: https://github.com/imubit/data-agent-aspen-ip21
+  install: pip install data-agent-aspen-ip21
+  version: 0.2.5
+  license: LGPL-3.0
+  description: Aspen IP21 historian plugin for the data-agent package.
+  official: true
+- language: python
+  registry: pypi
+  name: amqp-fabric
+  url: https://pypi.org/project/amqp-fabric/
+  repo: https://github.com/imubit/amqp-fabric
+  install: pip install amqp-fabric
+  version: 0.2.3
+  license: LGPL-3.0
+  description: AMQP-based microservice orchestration and communication framework.
+  official: true
+- language: python
+  registry: pypi
+  name: k8s-job-scheduler
+  url: https://pypi.org/project/k8s-job-scheduler/
+  repo: https://github.com/imubit/k8s-job-scheduler
+  install: pip install k8s-job-scheduler
+  version: 0.2.3
+  license: LGPL-3.0
+  description: Kubernetes job scheduler for Python.
+  official: true

@@ -1,9 +1,29 @@
 aid: imubit
 name: Imubit
-description: 'Imubit is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: manufacturing. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Imubit is a Houston-based industrial AI company behind the Optimizing Brain, the process
+  industry's first Closed Loop AI Optimization (AIO) solution powered by deep reinforcement
+  learning. Its cloud-based platform learns a dynamic model from a plant's own historian and
+  DCS data, then writes optimal setpoints back through existing control-system infrastructure
+  to continuously optimize throughput, yield, energy use and emissions. Imubit reports 100+
+  closed-loop applications deployed across refining, oil and gas, chemicals, petrochemicals and
+  polymers, cement and building materials, and mining, minerals and metals, and is trusted by
+  7 of the 10 largest U.S. refiners. Imubit publishes no public developer API; its GitHub
+  organization ships open-source Python libraries for pulling data from industrial historians
+  (OSIsoft PI, Aspen IP21) and supporting infrastructure.
 url: https://raw.githubusercontent.com/api-evangelist/imubit/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68e00deb1f2318dde6956527/69b4a0d3e5fb8e8f90b07597_imubit-og-image-share-1.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Manufacturing
+- Artificial Intelligence
+- Reinforcement Learning
+- Process Optimization
+- Industrial Automation
+- Oil and Gas
+- Chemicals
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,28 @@ maintainers:
 common:
 - type: Website
   url: https://imubit.com/
+- type: GitHubOrganization
+  url: https://github.com/imubit
+- type: Blog
+  url: https://imubit.com/blog
+- type: Support
+  url: https://imubit.com/contact
+- type: TermsOfService
+  url: https://imubit.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://imubit.com/privacy
+- type: Compliance
+  url: https://imubit.com/data-security-policy
+- type: Packages
+  url: packages/imubit-packages.yml
+- type: WellKnown
+  url: well-known/imubit-well-known.yml
+- type: DomainSecurity
+  url: security/imubit-domain-security.yml
+- type: Conformance
+  url: conformance/imubit-conformance.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

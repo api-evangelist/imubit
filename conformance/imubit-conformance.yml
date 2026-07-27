@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: https://imubit.com/data-security-policy
+# Compliance posture published on Imubit's Data Security Policy page. Imubit exposes no
+# public developer API / OpenAPI, so technical API standards (oauth2, rfc9457, etc.)
+# cannot be asserted; this file records the published organizational compliance program.
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: "Data Security Policy states Imubit completed a SOC 2 Type II audit (period Mar 1 2022 - Feb 28 2023)."
+- id: gdpr
+  conforms: true
+  evidence: "Data Security Policy states Imubit completed a GDPR readiness assessment."
+- id: iso-27001
+  conforms: false
+- id: hipaa
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: fedramp
+  conforms: false
+compliance_program:
+  url: https://imubit.com/data-security-policy
+  certifications:
+  - SOC 2 Type II
+  - GDPR (readiness assessment)
+  contact: privacy@imubit.com
